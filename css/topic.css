@@ -54,7 +54,7 @@ body{
     color: #999999;
 }
 .m-topicList .m-topicItems .topicInfo .desc .subTitle>span:before{
-    left: -18px;
+    left: -16px;
     top: 0px;
     content: "";
     position: absolute;
