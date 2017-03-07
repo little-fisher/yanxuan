@@ -54,26 +54,28 @@ body{
     color: #999999;
 }
 .m-topicList .m-topicItems .topicInfo .desc .subTitle>span:before{
-    left: -30px;
-    top: -5px;
+    left: -18px;
+    top: 0px;
     content: "";
     position: absolute;
-    width:23px;
-    height:20px;
+    width: 1.5rem;
+    height: 1.5rem;
     display: inline-block;
-    background-size: 100%;
-    background:url(../img/yh.png) no-repeat;
+    background-size: 3rem 10rem;
+    background: url(../img/yh.png) no-repeat;
+    background-size: 0.6rem 0.6rem;
 }
 .m-topicList .m-topicItems .topicInfo .desc .subTitle>span:after{
-    right:-28px;
-    top:-1px;
+   right: -27px;
+    top: 1px;
     content: "";
     position: absolute;
-    width:23px;
-    height:20px;
+    width: 23px;
+    height: 20px;
     display: inline-block;
     background-size: 100%;
-    background:url(../img/yinhaoleft.png) no-repeat;
+    background: url(../img/yinhaoleft.png) no-repeat;
+    background-size: 0.6rem 0.6rem;
 }
 .pages{
     display:flex;
