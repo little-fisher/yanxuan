@@ -1,0 +1,104 @@
+body{
+    background: #f4f4f4;
+}
+.m-topicList{
+    padding-top: 60px;
+}
+.m-topicList .m-topicItems{
+    width:100%;
+    background: #f4f4f4;
+    overflow: hidden;
+}
+.m-topicList .m-topicItems{
+    display:block;
+    background: #f4f4f4;
+    margin-bottom:10px;
+}
+.m-topicList .m-topicItems .topicImg{
+    width:100%;
+    line-height:230px;
+    text-align: center;
+
+}
+.m-topicList .m-topicItems .topicImg img{
+    display:block;
+    width: 100%;
+    position:relative;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+}
+.m-topicList .m-topicItems .topicInfo{
+    display:block;
+    text-align:center;
+    width:100%;
+    background: #ffffff;
+}
+.m-topicList .m-topicItems .topicInfo .price{
+    color:#B4282D;
+    font-size: 18px;
+    line-height:40px;
+}
+.m-topicList .m-topicItems .topicInfo .desc .title{
+    letter-spacing:3px;
+    line-height:50px;
+    color: #000;
+    font-size: 23px;
+}
+
+.m-topicList .m-topicItems .topicInfo .desc .subTitle span{
+    position:relative;
+    color: #999999;
+}
+.m-topicList .m-topicItems .topicInfo .desc .subTitle>span:before{
+    left: -30px;
+    top: -5px;
+    content: "";
+    position: absolute;
+    width:23px;
+    height:20px;
+    display: inline-block;
+    background-size: 100%;
+    background:url(../img/yh.png) no-repeat;
+}
+.m-topicList .m-topicItems .topicInfo .desc .subTitle>span:after{
+    right:-28px;
+    top:-1px;
+    content: "";
+    position: absolute;
+    width:23px;
+    height:20px;
+    display: inline-block;
+    background-size: 100%;
+    background:url(../img/yinhaoleft.png) no-repeat;
+}
+.pages{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height:60px;
+    background:#fff;
+}
+.pages div{
+    width:50%;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+.pages div.pageUp{
+    border-right: 1px solid #f4f4f4;
+}
+
+
+
+
+
+
+
+
+
+
+

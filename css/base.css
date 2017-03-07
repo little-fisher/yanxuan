@@ -1,0 +1,146 @@
+*,
+::before,
+::after{
+    margin:0;
+    padding:0;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+
+}
+body{
+    font-size:14px;
+    font-family: PingFangSC-Light,helvetica,'Heiti SC';
+    color:#333333;
+    background:#fff;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style:none;
+}
+input{
+    border:none;
+    outline:none;
+    -webkit-appearance: none;
+}
+/*****common css*******/
+.f_left{
+    float:left;
+}
+.f_right{
+    float:right;
+}
+.clearfix::before,
+.clearfix::after {
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    visibility: hidden;
+    clear:both;
+}
+.m_l10{
+    margin-left: 10px;
+}
+.m_r10{
+    margin-right: 10px;
+}
+.m_b10{
+    margin-bottom: 10px;
+}
+.m_t10{
+    margin-top: 10px;
+}
+/***********标题***********/
+.h1{
+   font-size:18px;
+}
+.h2{
+    font-size: 16px;
+}
+.h3{
+    font-size: 14px;
+}
+.h4 {
+    font-size:12px;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+.w_50{
+    display: block;
+    width:50%;
+}
+
+
+/******页脚样式********/
+.footer{
+    width:100%;
+    height:120px;
+    background:#414141;
+    color: #fff;
+    margin-top:30px;
+}
+.footer .download{
+    display: flex;
+    display: -webkit-flex;
+}
+.footer .download a{
+    display:inline-block;
+    text-align: center;
+    color:#fff;
+    width:80px;
+    line-height:30px;
+    border:1px solid #999999;
+    border-radius:2px;
+    margin-top:20px;
+}
+.footer .download .item-first{
+    flex-grow: 1;
+    text-align:right;
+    padding:0 10px;
+}
+.footer .download .item-second{
+    flex-grow: 1;
+    text-align: left;
+    padding:0 10px;
+}
+.copy-right{
+    display: block;
+    height:50px;
+    margin-top:20px;
+}
+.copy-right p{
+    line-height:20px;
+    font-size:12px;
+    color:#999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

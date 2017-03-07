@@ -1,0 +1,92 @@
+.m-category{
+    height:100%;
+    padding-top:50px;
+    overflow: hidden;
+}
+.m-category_left{
+    width:100px;
+    height:100%;
+    border-right:1px solid #f4f4f4;
+    overflow: hidden;
+    float: left;
+}
+.m-category .m-category_left>ul>li{
+    width:100px;
+    line-height:60px;
+    text-align: center;
+    border:none;
+    display: block;
+    font-size:19px;
+}
+.m-category .m-category_left>ul>li.now a{
+    font-size: 23px;
+    color: #b4282d;
+    border-left:3px solid #b4282d;
+}
+.m-category .m-category_left>ul>li a{
+    display: block;
+}
+/*右侧部分*/
+
+.m-subCateList{
+    overflow:hidden;
+    height:100%;
+}
+.m-subCateList .m-cateList_box{
+    padding:0 10px;
+}
+.m-cateList_box a{
+    display: block;
+    width:100%;
+    padding-top:10px;
+
+}
+.m-cateList_box a img{
+    width:100%;
+}
+.cateList .hd{
+    width:100%;
+    text-align: center;
+    line-height:30px;
+    position:relative;
+}
+.cateList .list{
+   width: 100%;
+
+}
+.cateList .list .cateItem{
+   width:30.333333%;
+    display:inline-block;
+}
+.cateList .list .cateItem .cateImg img{
+    display:block;
+    width:100%;
+    background: #fff;
+}
+.cateList .list .cateItem .name{
+    width: 100%;
+    text-align: center;
+    line-height:30px;
+    font-size:16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
